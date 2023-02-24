@@ -1,0 +1,23 @@
+.nav {
+    height: 25vh;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 3rem;
+
+    .top {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .searchBox {
+            flex: 1;
+        }
+
+        .location {
+            flex: .7;
+        }
+    }
+
+}

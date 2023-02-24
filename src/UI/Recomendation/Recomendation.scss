@@ -1,0 +1,24 @@
+.recommendation {
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+
+    .item {
+        background: #d4d4d4;
+        padding: .5rem .8rem;
+        border-radius: 50px;
+        font-size: .9rem;
+        margin-right: .5rem;
+        cursor: pointer;
+        user-select: none;
+
+        &:first-child {
+            margin-left: 0;
+        }
+
+        &.active {
+            background: #121212;
+            color: #fff;
+        }
+    }
+}

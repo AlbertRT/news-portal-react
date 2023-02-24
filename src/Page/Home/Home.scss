@@ -1,0 +1,14 @@
+.Home {
+    padding: 1rem 3rem;
+
+    .title {
+        span {
+            &:first-child {
+                font-size: 1.5rem;
+                font-weight: bold;
+                display: block;
+            }
+        }
+        user-select: none;
+    }
+}
