@@ -1,3 +1,50 @@
+.icon {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
 .TopHeadline {
-    margin-top: 1rem;
+	margin-top: 1rem;
+    .news {
+        background-repeat: no-repeat;
+        background-position: center;
+        
+        .news-meta {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            background: #2020206a;
+            padding: 1rem 3rem;
+
+            .title a {
+                font-size: 1.4rem;
+                color: #fff;
+                font-weight: bold;
+                text-decoration: none;
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+            .extra-meta {
+                margin-top: .2rem;
+                display: flex;
+                align-items: center;
+
+                .dot {
+                    width: 10px;
+                    height: 10px;
+                    background: #dcdcdc;
+                    border-radius: 50%;
+                }
+
+                .source, .published {
+                    color: #dcdcdc;
+                    margin: .5rem;
+                    cursor: default;
+                    font-weight: 500;
+                }
+            }
+        }
+    }
 }
